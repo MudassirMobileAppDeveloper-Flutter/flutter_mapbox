@@ -1,13 +1,15 @@
 import UIKit
+import flutter_mapbox
 import Flutter
 
-@UIApplicationMain
+@main
 @objc class AppDelegate: FlutterAppDelegate {
   override func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-    GeneratedPluginRegistrant.register(with: self)
+      GeneratedPluginRegistrant.register(with: self)
+
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
