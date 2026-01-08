@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mapbox/flutter_mapbox.dart';
 import 'example.dart';
 
+//
 class SimpleMapExample extends StatefulWidget implements Example {
   const SimpleMapExample({super.key});
 
